@@ -49,5 +49,5 @@ npm run dev
 ### Contributing
 We welcome contributions from the community! If you have suggestions, bug reports, or code improvements, please submit a pull request or open an issue on our GitHub repository.
 
-License
+### License
 This project is licensed under the MIT License.
