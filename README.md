@@ -26,7 +26,7 @@ npm install
 ### Run the App: Start the development server and open the app in your browser.
 
 ```bash
-npm start
+npm run dev
 ```
 ### Usage
 
