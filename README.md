@@ -31,19 +31,19 @@ npm install
 npm start
 ```
 ## Usage
-### Home Page: Browse through the available cars on the home page.
+**Home Page:** Browse through the available cars on the home page.
 
-### Car Description Page: Click on a car to view its detailed description, fare details, and additional information.
+**Car Description Page:** Click on a car to view its detailed description, fare details, and additional information.
 
-### Booking: Click the "Proceed" button on the car description page to initiate the booking process.
+**Booking:** Click the "Proceed" button on the car description page to initiate the booking process.
 
-### Billing Details: Fill in your billing details, including your name, address, phone number, and payment method.
+**Billing Details:** Fill in your billing details, including your name, address, phone number, and payment method.
 
-### Order Summary: Review the order summary, including the selected car and estimated fare.
+**Order Summary:** Review the order summary, including the selected car and estimated fare.
 
-### Place Order: Click the "Place Order" button to confirm your booking and receive an order number.
+**Place Order:** Click the "Place Order" button to confirm your booking and receive an order number.
 
-### Thank You Page: After placing the order, you'll be redirected to a "Thank You" page with your order details.
+**Thank You Page:** After placing the order, you'll be redirected to a "Thank You" page with your order details.
 
 ## Contributing
 We welcome contributions from the community! If you have suggestions, bug reports, or code improvements, please submit a pull request or open an issue on our GitHub repository.
