@@ -34,6 +34,8 @@ const Fleets = () => {
           flexDirection: isMobile ? "column" : "row",
           marginTop: "50px",
           minHeight: "calc(100vh - 50px)",
+          marginRight: isMobile && "20px",
+          right: isMobile && "20px"
         }}
       >
         <div style={{ flex: "0 0 200px", padding: "20px", minWidth: "200px" }}>   

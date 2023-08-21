@@ -1,7 +1,7 @@
 import { Link, Button, useMediaQuery } from "@mui/material";
 import HamburgerMenu from "./HamburgerMenu";
 // import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link as NavLink } from "react-router-dom";
 
 const Navbar = () => {
   // const [isMobile, setIsMobile] = useState(false);
@@ -71,13 +71,13 @@ const Navbar = () => {
             <Link href="/" style={{ color: "#0a0a0a" }}>
               Home
             </Link>
-            <Link href="/fleets" style={{ color: "#0a0a0a" }}>
+            <NavLink to="/fleets" style={{ color: "#0a0a0a", textDecoration: "underline" }}>
               Fleets
-            </Link>
-            <Link href="/catalogue" style={{ color: "#0a0a0a" }}>
+            </NavLink>
+            <Link href="/" style={{ color: "#0a0a0a" }}>
               About Us
             </Link>
-            <Link href="/catalogue" style={{ color: "#0a0a0a" }}>
+            <Link href="/" style={{ color: "#0a0a0a" }}>
               Contact Us
             </Link>
           </div>

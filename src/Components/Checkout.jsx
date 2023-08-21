@@ -70,10 +70,13 @@ const Checkout = () => {
         style={{
           display: "flex",
           flexDirection: isMobile ? "column" : "row",
+          justifyContent: "center",
+          alignItems: "center",
           margin: isMobile ? "50px" : "100px",
+          right: isMobile && "20px"
         }}
       >
-        <div style={{ marginTop: "20px" }}>
+        <div style={{ marginTop: "20px", backgroundColor: "#fff", padding: "20px", borderRadius: "15px" }}>
           <form onSubmit={handlePlaceOrder}>
             <Box>
               <Typography variant="h5">Billing Details</Typography>
@@ -179,7 +182,7 @@ const Checkout = () => {
             </Box>
           </form>
         </div>
-        <div style={{ marginLeft: !isMobile && "50px", marginTop: isMobile && "50px" }}>
+        <div style={{ marginLeft: !isMobile && "50px", marginTop: isMobile && "50px", marginRight: "20px" }}>
           {selectedProduct && (
             <div style={{ textAlign: "center" }}>
               <h3>Order Summary</h3>

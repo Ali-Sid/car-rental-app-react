@@ -8,6 +8,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import { Link } from "react-router-dom";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,45 +58,39 @@ const HamburgerMenu = () => {
           </ListItem>
           <ListItem
             Button
-            component="a"
-            href="/fleets"
             onClick={closeMenu}
             style={{ color: "#0a0a0a" }}
           >
-            <ListItemText
-              primary="Fleets"
+            <Link
+              to="Fleets"
               primaryTypographyProps={{
-                style: { fontFamily: "'play', sans-serif" },
+                style: { fontFamily: "'play', sans-serif", color: "#0a0a0a" },
               }}
-            />
+            >Fleets</Link>
           </ListItem>
           <ListItem
             Button
-            component="a"
-            href="/contact"
             onClick={closeMenu}
             style={{ color: "#0a0a0a" }}
           >
-            <ListItemText
-              primary="Contact"
+            <Link
+              to="/"
               primaryTypographyProps={{
-                style: { fontFamily: "'play', sans-serif" },
+                style: { fontFamily: "'play', sans-serif", color: "#0a0a0a" },
               }}
-            />
+            >Contact</Link>
           </ListItem>
           <ListItem
             Button
-            component="a"
-            href="/login"
             onClick={closeMenu}
             style={{ color: "#0a0a0a" }}
           >
-            <ListItemText
-              primary="Logout"
+            <Link
+              to="/login"
               primaryTypographyProps={{
-                style: { fontFamily: "'play', sans-serif" },
+                style: { fontFamily: "'play', sans-serif", color: "#0a0a0a" },
               }}
-            />
+            >Logout</Link>
           </ListItem>
         </List>
       </Drawer>

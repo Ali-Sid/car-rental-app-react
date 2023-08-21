@@ -144,6 +144,7 @@ const Schedule = () => {
                 variant="contained"
                 color="primary"
                 type="submit"
+                onClick={handleUserClick}
                 style={{ marginTop: "20px" }}
               >
                 Search Cars

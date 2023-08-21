@@ -47,6 +47,8 @@ const Home = () => {
           alignItems: "center",
           width: "100%",
           marginTop: "10px",
+          marginRight: isMobile && "20px",
+          right: isMobile && "20px"
         }}
       >
         <div
